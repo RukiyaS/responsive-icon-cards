@@ -20,7 +20,6 @@ html {
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-
 ul {
   padding-left: 0;
   margin: 0;
@@ -35,14 +34,28 @@ li {
   margin-right: auto;
 }
 
+.card-img img {
+  display: block;
+  width: 50px;
+}
+
 img {
   display: block;
   width: 50px;
 }
 
+.card-body h2 {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
 h2 {
   margin-bottom: 0;
   font-weight: normal;
+}
+
+.card-body p {
+  margin-top: 0;
 }
 
 p {
@@ -68,6 +81,8 @@ p {
   .card-img {
     display: inline-block;
   }
+
+}
 
 @media only screen and (min-width: 38em) {
 
